@@ -4,7 +4,7 @@
 public class test {
     public static void main(String[] args) {
         int i = 0;
-        while(i < 6){
+        while(i < 7){
             makeThread mt = new makeThread();
             i++;
         }
