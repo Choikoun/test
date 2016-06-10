@@ -1,0 +1,5 @@
+language: java
+
+samples:
+  - id: test
+    script: java -jar target/test-1.0-SNAPSHOT.jar
