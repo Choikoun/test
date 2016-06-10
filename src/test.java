@@ -3,6 +3,10 @@
  */
 public class test {
     public static void main(String[] args) {
-        System.out.println("hello");
+        int i = 0;
+        while(i < 5){
+            makeThread mt = new makeThread();
+            i++;
+        }
     }
 }
